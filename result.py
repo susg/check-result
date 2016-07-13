@@ -28,10 +28,7 @@ for roll in range(1,size+1) :
         ar1 = []
         ar2 = []
 	
-	#b = "\n\nPROCESSING..."
-	#print b
-	#sys.stdout.write("\033[F")
-	for i in range(10):
+	for i in range(10):				#try threading such that printing "processing" and result scraping run simultaneously
     		print("PROCESSING" + "." * i)
     		sys.stdout.write("\033[F") # Cursor up one line
     		time.sleep(0.1)
