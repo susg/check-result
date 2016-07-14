@@ -7,7 +7,7 @@ site1 = "http://www.juexam.org/newexam/show_result.asp?f1="
 site2 = "&f2=E3"
 site3 = "1622R"
 
-dept = raw_input("\nEnter the first three letter of your exam roll in small letter:\n(For eg if your exam roll is ABC123456 then enter abc)\n\n")
+dept = raw_input("\nEnter the first three letter of your exam roll nummber in small letter:\n(For eg if your exam roll number is ABC123456 then enter abc)\n\n")
 dept_ = dept.upper()
 
 size =(int)( raw_input("\nEnter the batch size\n"))
