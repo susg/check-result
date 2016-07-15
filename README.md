@@ -1,5 +1,5 @@
 # Check-Result
-##Web scraping in python to help JU students to check their semester result
+##Web scraping in python to help engineering students of JU to check their semester result.
 
 ###Libraries required :
 * [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
@@ -7,9 +7,11 @@
 
 ###Run the program :
 To run the program , get into the directoy and type in terminal : 
-<b>python result.py</b>
+<b>python check_result.py</b>
 
 ###Check the result :
 A text file will be created in the same directory. Name of the file will be displayed as output.
 
-####As of now the program does not throws an error if the semester result is not out. Work is still in progress
+####The program provides the option to view one result or your entire batch's result. You need to select the appropiate option.
+####Checking single result displays the output in the terminal itself while for others it creates a text file.
+
