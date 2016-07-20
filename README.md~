@@ -16,7 +16,7 @@ Libraries required :
 
 ###Run the program :
 To run the program , get into the directory and type in terminal : 
-	'python main.py'
+	'python check_result.py'
 
 ###Check the result :
 A text file will be created in the same directory. Name of the file will be displayed as output.
