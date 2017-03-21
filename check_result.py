@@ -65,7 +65,7 @@ class Result :
 			file = open(file_name, "w")
 			file.write("ROLL\tNAME\t\t\t  SGPA\n")
 			print "\n"
-		
+
 			self.roll = self.roll-4
 			
 			# Run a loop for the entire department
@@ -107,7 +107,6 @@ class Result :
                         			file.write(str(st+1)+"\t"+str(ar2[3][0]).ljust(20)+"\t  "+"X\n")                
         			except IndexError:
                 			pass
-	
 			# Closing the file
 			file.close()
 
