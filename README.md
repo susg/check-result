@@ -23,4 +23,5 @@ A text file will be created in the same directory. Name of the file will be disp
 
 ###To Do :
 * Better user interface
+* Create a GUI version of this scrapper.
 
